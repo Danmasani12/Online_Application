@@ -31,6 +31,7 @@
         $subjects = $_POST['subject'];
         $grade = $_POST['grade']
 
+        
         $sql = 'INSERT into application_form (id, $jamb_number, $jamb_year, $course, $surname, $first_name, $last_name, $middle_name, $email,
         $gender, $phone_number, $country, $state, $address, $sponsor_name, $email_of_sponsor, $relationship_with_sponsor,
         $religion, $marital_status, $date_of_birth, $exam_type, $exam_year, $exam_no, $subjects, $grade) 

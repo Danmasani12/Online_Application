@@ -102,6 +102,7 @@
 
                                     <input type="text" id="surname" name="surname" placeholder="Enter Surname" required>
 
+                                    
                                 </div>
                                 <div class="first-name">
                                     <div class="first-name2">First Name</div>
