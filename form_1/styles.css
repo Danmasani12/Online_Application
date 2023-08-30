@@ -1,9 +1,3 @@
-* {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
-
 .applcation-form-assessment,
 .applcation-form-assessment * {
     box-sizing: border-box;

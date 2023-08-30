@@ -58,13 +58,13 @@
                             <div class="jamb-no">
                                 <div class="jamb-number">Jamb Number</div>
                                 <div class="frame">
-                                    <input type="text" id="jamb-number" name="jamb-number"
+                                    <input type="text" id="jamb-number" name="jambnumber"
                                         placeholder="Enter Jamb Number" required>
                                 </div>
                             </div>
                             <div class="jamb-year">
                                 <div class="jamb-year2">Jamb Year</div>
-                                <select id="jamb-year" name="jamb-year" required>
+                                <select id="jamb-year" name="jambyear" required>
                                     <option value="" disabled selected>Select Jamb Year</option>
                                     <option value="2023">2023</option>
                                     <option value="2022">2022</option>
@@ -106,12 +106,12 @@
                                 </div>
                                 <div class="first-name">
                                     <div class="first-name2">First Name</div>
-                                    <input type="text" id="first-name" name="first-name" placeholder="Enter First name"
+                                    <input type="text" id="first-name" name="firstname" placeholder="Enter First name"
                                         required>
                                 </div>
                                 <div class="middle-name">
                                     <div class="middle-name2">Middle Name</div>
-                                    <input type="text" id="middle-name" name="middle-name"
+                                    <input type="text" id="middle-name" name="middlename"
                                         placeholder="Enter Middle name" required>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
 
                                 <div class="phone">
                                     <div class="phone-number">Phone Number</div>
-                                    <input type="text" id="phone-number" name="phone-number" placeholder="Phone Number"
+                                    <input type="text" id="phone-number" name="phonenumber" placeholder="Phone Number"
                                         required>
                                 </div>
                             </div>
@@ -174,19 +174,19 @@
                             <div class="row-5">
                                 <div class="sponsor-name">
                                     <div class="full-name-of-sponsor">Full Name of Sponsor</div>
-                                    <input type="text" id="sponsor-name" name="sponsor-name"
+                                    <input type="text" id="sponsor-name" name="sponsorname"
                                         placeholder="Enter Full Name" required>
                                 </div>
                                 <div class="email-of-sponsor">
                                     <div class="email-address-of-sponsor">
                                         Email Address of Sponsor
                                     </div>
-                                    <input type="text" id="email-of-sponsor" name="email-of-sponsor"
+                                    <input type="text" id="email-of-sponsor" name="emailofsponsor"
                                         placeholder="Enter Email Address" required>
                                 </div>
                                 <div class="relation-with-sponsor">
                                     <div class="relationship">Relationship</div>
-                                    <input type="text" id="relation-with-sponsor" name="relation-with-sponsor"
+                                    <input type="text" id="relation-with-sponsor" name="relationwithsponsor"
                                         placeholder="Enter Relationship" required>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@
                                 <div class="marital-status">
                                     <div class="frame-37">
                                         <div class="marital-status2">Marital Status</div>
-                                        <input type="text" id="marital-status" name="marital-status"
+                                        <input type="text" id="marital-status" name="maritalstatus"
                                             placeholder="Enter Status" required>
                                     </div>
                                 </div>
@@ -255,7 +255,7 @@
                                 <div class="examination-type">Examination Type</div>
                                 <div class="frame-">
 
-                                    <select name="exam-type">
+                                    <select name="examtype">
                                         <option value="" disabled selected>Select Exam</option>
                                         <option value="waec">Waec</option>
                                         <option value="neco">Neco</option>
@@ -269,7 +269,7 @@
                                 <div class="exam-year2">Exam Year</div>
                                 <div class="frame-">
 
-                                    <select name="exam-year" id="year">
+                                    <select name="examyear" id="year">
                                         <option value="year">Select Year</option>
                                         <option value="2023">2023</option>
                                         <option value="2022">2022</option>
@@ -283,7 +283,8 @@
 
                             </div>
                             <div class="exam-no">
-                                <div class="exam-no2">Exam No.</div><input type="text" id="exam" name="exam-no"
+                                <div class="exam-no2">Exam No.</div>
+                                <input type="text" id="exam" name="examno"
                                     placeholder="Enter Exam" required>
                             </div>
 
